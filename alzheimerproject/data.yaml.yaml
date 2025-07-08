@@ -1,0 +1,7 @@
+train: ./datasetYeni/group_split/images/train
+val: ./datasetYeni/group_split/images/val
+test: ./datasetYeni/group_split/images/test
+
+nc: 3  # sınıf sayısı
+names: ['AD', 'CN', 'MCI']  # sınıf adları
+# python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolov5s.pt --name benim_modelim

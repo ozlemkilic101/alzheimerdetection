@@ -179,3 +179,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Derin öğrenme model dosyaları (100MB üstü olabilir)
+*.pt
+*.h5
+*.ckpt
+
+# YOLO eğitim çıktı klasörleri
+train_results/
+val_outputs/
+runs/
+exp/
+weights/
+results/
